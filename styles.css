@@ -115,6 +115,7 @@ header {
 
     .nav-links.active {
         display: flex;
+        width: 170%;
     }
 
     .nav-toggle {
