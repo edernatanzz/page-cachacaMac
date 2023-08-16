@@ -1,7 +1,9 @@
 body {
+    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+   /*background-color: hsl(142, 18%, 70%);*/
 }
 
 header {
@@ -12,6 +14,7 @@ header {
 }
 
 #products-list {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -137,15 +140,103 @@ header {
     }
 }
 
+/* /-----------------SLIDER PRINCIPAL */ 
+
+
+/* ---------------------------------------------------------- #04*/
+        /* ... (seletores iniciais) */
+
+/* Estilos do Slider Principal *//* Estilos do Slider Principal */
+
+.slider-principal {
+    position: relative;
+    margin-top: 80px; /* Altura da barra de navegação */
+}
+
+.slider-principal img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slick-prev {
+    background-image: url(imgs/slider-principal/setas/bx-chevron-left.svg);
+    left: 0;
+}
+
+.slick-next {
+    background-image: url(imgs/slider-principal/setas/bx-chevron-right.svg);
+    right: 0;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    border: 5px solid white;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.slick-dots li.slick-active button {
+    background: #00bac6;
+}
+
+/* ... (outros ajustes responsivos) */
+/* ... (outros ajustes responsivos) */
+
+  
+  /* Estilos para o cabeçalho h3 */
+
+
 
 /* conteudo  */
 /* nao beba*/ 
+
+
+
+
+
+
+
 .content-message {
-    background-color: #f9f9f9;
+   /* background-color: #f9f9f9;*/
     padding: 1rem;
-    border-radius: 4px;
+    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: justify;
 }
 
 .content-message p {
@@ -155,7 +246,7 @@ header {
 }
 
 .content {
-    background-color: #f9f9f9;
+    /*background-color:hsl(142, 18%, 70%);*/
     padding: 2rem 0;
     text-align: center;
     display: flex;

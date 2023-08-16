@@ -120,3 +120,17 @@ const navLinks = document.querySelector('.nav-links');
 navToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
+
+/* SLIDER PRINCIPAL */
+
+
+$('.slider-principal').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    autoplay:true,
+    autoplaySpeed: 2000
+  });
+  
