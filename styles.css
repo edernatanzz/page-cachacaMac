@@ -61,9 +61,22 @@ header {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+    flex: 1; /* Expande para ocupar o espaço restante no navbar */
+    display: flex;
+    align-items: start;
+    justify-content: start; /* Centraliza horizontalmente */
 }
+
+.logo a {
+    display: block; /* Ocupa todo o espaço disponível na largura */
+}
+
+.logo img {
+    width: 40px; /* Ajuste o tamanho do logo conforme necessário */
+    height: auto;
+}
+
+/* ... (estilos do resto do CSS) */
 
 .nav-toggle {
     display: none;
@@ -106,7 +119,7 @@ header {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 70px;
+        top: 100px;
         left: 0;
         width: 100%;
         background-color: #333;
@@ -115,7 +128,8 @@ header {
 
     .nav-links.active {
         display: flex;
-        width: 170%;
+        height: 20%;
+        
     }
 
     .nav-toggle {
