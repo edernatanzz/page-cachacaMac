@@ -1,3 +1,7 @@
+*{
+    font-style: italic
+}
+
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
@@ -352,3 +356,19 @@ footer {
     font-size: 0.85rem;
     margin: 0.5rem 0;
 }
+
+
+  /*tamanho da imagem do slider*/
+  .carousel-item img {
+    width: auto;
+    height: auto;
+}
+
+.featurette-heading .text-muted {
+    color: initial; /* Volta à cor padrão (caso tenha sido definida anteriormente) */
+ }
+ 
+ .featurette-heading .text-muted {
+    color: #25d366 !important; /* Define a cor verde (#25d366) para o texto com a classe text-muted */
+ }
+ 

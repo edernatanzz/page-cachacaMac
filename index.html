@@ -6,92 +6,148 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" type="text/css" href="slick.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+
     <title>Cachaça Macaúbas </title>
 </head>
 <body>
 
 
-
-
-
-    <header>
-        <nav class="navbar">
+<header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="logo">
-                <a href="#"><img src="imgs/logo nav-bar.PNG" alt="Logo"></a>
+
+                <img src="imgs/logo nav-bar.PNG" alt="Descrição da imagem" width="50" height="60"> <a class="navbar-brand" href="#"></a>
             </div>
-            <button class="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#products-list">Produtos</a></li>
-                <li><a href="#footer">Contato</a></li>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(atual)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products-list"">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contato</a>
+              </li>
             </ul>
+          </div>
         </nav>
-    </header>
+</header>
 
 
 
-
-
-
-
-    <!---Slider princiapal -->
-
-
+<main>
     <div class="col-100">
         <div class="slider-principal">
-            <div><img src="imgs/slider-principal/01.PNG" ></div>
-            <div><img src="imgs/slider-principal/02.PNG" ></div>
-            <div><img src="imgs/slider-principal/03.PNG" ></div>
-            <div><img src="imgs/slider-principal/04.PNG" ></div>
+            
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img class="first-slide" src="imgs/slider-principal/01.PNG" alt="First slide">
+            
+          </div>
+          
+
+          <div class="carousel-item">
+            <img class="second-slide" src="imgs/slider-principal/02.PNG" alt="Second slide">
+            
+          </div>
+
+          <div class="carousel-item">
+            <img class="third-slide" src="imgs/slider-principal/03.PNG" alt="Third slide">
+            
+          </div>
+          <div class="carousel-item ">
+            <img class="first-slide" src="imgs/slider-principal/04.PNG" alt="First slide">
+          </div>
+          
+        </div>
+        <a class="carousel-control-prev custom-carousel-control-next" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Voltar</span>
+        </a>
+        <a class="carousel-control-next custom-carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Avançar</span>
+          </a>
+          
+</a>
+
+        </a>
+      </div>
 
         </div>
     </div>
-
-
-    <!----Conteudo -->
 
 
     
-</section>
-<section class="content">
-    <div class="container">
-        <img src="" alt="">
-        <h2>Explore nossos produtos</h2>
-        <p>Descubra a autenticidade da
-            Cachaça Macaúbas, uma bebida única e exclusiva para os 
-            verdadeiros apreciadores de um bom destilado, produzida em um pequeno alambique familiar, seguindo técnicas artesanais.
-            Cada garrafa carrega consigo a experiência e o conhecimento de quem realmente entende de cachaça.
+</main>
+
+ <section class="content" >
+    <div class="container marketing">
+
+        <!-- Três colunas de texto, abaixo do carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="imgs/ambiental.PNG" width="140" height="140">
+            <h2>Responsabilidade ambiental</h2>
+            <p>A  Cachaça Macaúbas tem o compromisso com a preservação do meio ambiente. Sua produção é realizada de forma ecologicamente viável e sustentável, utilizando técnicas que respeitam a natureza e evitam o desperdício.</p>
+
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="imgs/apreciador.PNG" width="140" height="140">
+            <h2>Bebida de Sabor único</h2>
+            <p>Exclusiva para os 
+                verdadeiros apreciadores de um bom destilado, produzida em um pequeno alambique familiar, seguindo técnicas artesanais.
+                Cada garrafa carrega consigo a experiência e o conhecimento de quem realmente entende de cachaça.</p>
             
-            </p>
-        <div class="content-message">
-            <p>- Sabor único:
-                A Cachaça Macaúbas apresenta um equilíbrio perfeito 
-                entre suavidade e robustez com um leve toque de madeira.
-                 Cada gole proporciona uma experiência sensorial incomparável,
-                  levando você a descobrir novos sabores e sensações.
-                
-            </p>
- 
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="imgs/especial.PNG" width="140" height="140">
+            <h2>Equilíbrio perfeito</h2>
+            <p>entre suavidade e robustez com um leve toque de madeira.
+                Cada gole proporciona uma experiência sensorial incomparável,
+                 levando você a descobrir novos sabores e sensações .</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- COMEÇAM AS MENCIONADAS FEATUREZINHAS xD -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Explore nossos produtos ! <span class="text-muted">Descubra a autenticidade da
+                Cachaça Macaúbas </span></h2>
+            <p class="lead">uma bebida única e exclusiva para os 
+                verdadeiros apreciadores de um bom destilado, produzida em um pequeno alambique familiar, seguindo técnicas artesanais.
+                Cada garrafa carrega consigo a experiência e o conhecimento de quem realmente entende de cachaça.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="300x300" style="width: 500px; height: 500px;" src="imgs/img lipe.jpg"true">
+          </div>
         </div>
 
-        <div class="content-message">
-            <p>
-                
-                - Responsabilidade ambiental:
-A Cachaça Macaúbas tem o compromisso com a preservação do meio ambiente. Sua produção é realizada de forma ecologicamente viável e sustentável, utilizando técnicas que respeitam a natureza e evitam o desperdício.
-            </p>
- 
-        </div>
-        <p>Evite o consumo excessivo de álcool. Se beber não dirija.</p>
-    </div>
-</section>
-
-
-
+    
+      </div>
+ </section>
         <!-------Parte de produtos -->
     <section id="products-list">
         <!-- Os produtos serão adicionados aqui via JavaScript -->
@@ -131,5 +187,14 @@ A Cachaça Macaúbas tem o compromisso com a preservação do meio ambiente. Sua
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="styles.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg>
+
 </body>
 </html>
