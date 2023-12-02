@@ -31,7 +31,7 @@
                 price: 40.00,
                 image: 'imgs/slider-principal/garrafas/03-serie ouro.webp',
                 description: 'Caixa com 12 unidades – R$340,00.',
-                whatsappLink: 'https://wa.me/seu-7799899478?text=Ol%C3%A1%2C%20quero%20comprar%20o%20Produto%202!'
+                whatsappLink: 'https://wa.me/7799899478?text=Ol%C3%A1%2C%20quero%20comprar%20o%20Produto%202!'
             },
             {
                /* 4*/
