@@ -40,7 +40,7 @@
                 imageSubtitle: '750 ml – 38% Vol.',
                 price: 34.00,
                 image: 'imgs/slider-principal/garrafas/04-serie prata.webp',
-                description: 'Caixa com 12 unidades – R$340.00.',
+                description: 'Caixa com 12 unidades – R$340,00.',
                 whatsappLink: 'https://wa.me/7799899478?text=Ol%C3%A1%2C%20quero%20comprar%20o%20Produto%203!'
             },
             {
