@@ -343,7 +343,22 @@ footer {
     padding: -1rem 0;
     text-align: center;
 }
+footer h8 {
+    font-weight: bold; /* Pode ser removido ou ajustado conforme sua preferência de peso da fonte */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    animation: changeColor 1s infinite alternate; /* Adiciona uma animação contínua de mudança de cor durante 5 segundos */
+}
 
+/* Definição da animação de mudança de cor */
+@keyframes changeColor {
+    from {
+        color: #db3445; /* Cor inicial do texto */
+    }
+    to {
+        color: black; /* Cor final do texto */
+    }
+    
+}
 .footer-container {
     display: flex;
     justify-content: center;
